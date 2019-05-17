@@ -454,6 +454,14 @@
             <name>shibboleth</name>
             <url>https://build.shibboleth.net/nexus/content/repositories/releases/</url>
         </repository>
+        <repository>
+            <id>central</id>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </releases>
+            <url>http://central.maven.org/maven2/</url>
+        </repository>
     </repositories>
 
     <distributionManagement>
